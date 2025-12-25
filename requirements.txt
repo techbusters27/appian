@@ -1,0 +1,9 @@
+langchain
+pypdf
+pinecone-client
+openai
+python-dotenv
+streamlit
+sentence-transformers
+numpy
+faiss-cpu
