@@ -47,20 +47,3 @@ I have created a local interactive prototype that simulates the Appian embedded 
 2.  Run the app: `python -m streamlit run demo_app.py`
 3.  Open the URL (usually `http://localhost:8501`) to interact with the "Appian Knowledge Assistant".
 
-### Verification Recording (v2)
-I have recorded a new session to verify system stability and the new UI components.
-
-![Demo Regression Test](file:///C:/Users/gsjit/.gemini/antigravity/brain/50b619c6-e1fa-4838-87cd-8f2160416e75/demo_verification_v2_1766670215752.webp)
-
-**Key Interaction Point: Proactive Context Update**
-![Context Update](file:///C:/Users/gsjit/.gemini/antigravity/brain/50b619c6-e1fa-4838-87cd-8f2160416e75/.system_generated/click_feedback/click_feedback_1766670336444.png)
-*The retrieval logic works correctly ("Home Policy" found), and the new "Knowledge Base" sidebar is visible on the left.*
-
-
-
-
-## Next Steps
-1.  **Deploy Vector DB**: Set up a real instance of Pinecone or Weaviate.
-
-2.  **Configure Appian**: Create the basic objects in Appian Designer using the provided markdown designs.
-3.  **End-to-End Test**: Ingest real PDFs and test the retrieval from the Appian Interface.
